@@ -5,6 +5,8 @@ const userController=require('../db/serviceDB/usersDB')
 
 
 router.post('/exist',(req,res)=>{
+    console.log(req.query.email);
+    console.log(req.query.password);
     userController.existUser(res,req.query.email,req.query.password)
     }
 )
