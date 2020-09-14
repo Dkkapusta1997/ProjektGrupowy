@@ -9,17 +9,17 @@ async function  existUser(res,email,password){
 }
 
 async function registUser(res,req){
-
+    console.log(req.query)
     const obiekt= {
         id: req.query.id,
-        firstname: req.query.firstname,
+        firstname: req.query.firstName,
         lastname: req.query.lastname,
         email: req.query.email,
         password: req.query.password,
         firm: req.query.firm,
         boss_id: req.query.boss_id
     }
-console.log(obiekt)
+//console.log(obiekt)
 
     await query('User').insert(obiekt).then(res.send("User Registed")).catch((err)=>{console.log(err)})
 }

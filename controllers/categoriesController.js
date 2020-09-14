@@ -1,12 +1,13 @@
 var express=require('express');
 var router=express.Router();
 
-const showAll=require('../db/serviceDB/categoriesDB')
+const showAllCategories=require('../db/serviceDB/categoriesDB')
 
-
+var cors=require('cors');
 //Select
 router.get('/showAll',(req,res)=>{
-showAll(res)
+    console.log(req.query);
+showAllCategories(res)
     }
 )
 
