@@ -9,7 +9,6 @@ async function  existUser(res,email,password){
 }
 
 async function registUser(res,req){
-    console.log(req.query)
     const obiekt= {
         id: req.query.id,
         firstname: req.query.firstName,
