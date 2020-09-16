@@ -11,7 +11,7 @@ var energyResourcesController=require('./controllers/energyResourcesController')
 var moduleController=require('./controllers/moduleController')
 var stageController=require('./controllers/stageController')
 var lineController=require('./controllers/lineController')
-
+var factoryController=require('./controllers/factoryController')
 
 
 
@@ -25,6 +25,7 @@ app.use('/energyResources',energyResourcesController)
 app.use('/module',moduleController)
 app.use('/stage',stageController)
 app.use('/line',lineController)
+app.use('/factory',factoryController)
 
 
 

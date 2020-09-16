@@ -25,9 +25,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77cb7442-4bf6-48de-aff3-f229b4067b6b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/controllers/factoryController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/serviceDB/factoryDB.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/moduleController.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/moduleController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/serviceDB/StageDB.js" beforeDir="false" afterPath="$PROJECT_DIR$/db/serviceDB/StageDB.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/serviceDB/factors_energy_resourcesDB.js" beforeDir="false" afterPath="$PROJECT_DIR$/db/serviceDB/factors_energy_resourcesDB.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +73,8 @@
       <workItem from="1600111994025" duration="6486000" />
       <workItem from="1600157612937" duration="16954000" />
       <workItem from="1600205686926" duration="8533000" />
-      <workItem from="1600247063487" duration="7106000" />
+      <workItem from="1600247063487" duration="9721000" />
+      <workItem from="1600290463169" duration="3103000" />
     </task>
     <servers />
   </component>
@@ -99,5 +102,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.312.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1600212393181" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1600290859712">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/1920.312.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1600290859712" />
   </component>
 </project>
