@@ -4,7 +4,7 @@ const query=knex(connectionConfig);
 
 async function showStageByIdOwner(req,res){
 
-    query('Stage').select('Stage.name','Stage.id').where("id_owner",req.query.id_owner).
+    query('Stage').select('Stage.nameStage','Stage.id').where("id_owner",req.query.id_owner).
         then(result=>{
             res.send(result)
     }).catch((err)=>{
