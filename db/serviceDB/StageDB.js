@@ -87,5 +87,9 @@ async function showModuleInStageByIdModule(req,res){
     })
 }
 
+async function costam(){
+    console.log('costam')
+}
+
 
 module.exports={showStageByIdOwner,addStage,deleteStage,addModuleToStage,deleteModuleInStage,showModuleInStageByIdModule}
