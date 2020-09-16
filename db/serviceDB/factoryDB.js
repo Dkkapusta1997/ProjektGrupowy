@@ -12,7 +12,7 @@ async function addFactory(req,res){
     }
 
      query('factory').insert(factory)
-        .then(query('factory').max('id_factory as factory_id').first().then((result)=>{
+        .then(await query('factory').max('id_factory as factory_id').first().then((result)=>{
             res.send(result);
         }))
         .catch((err)=>console.log(err))
