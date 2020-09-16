@@ -4,6 +4,7 @@ var router=express.Router();
 const modulee=require('../db/serviceDB/ModuleDB')
 
 router.get('/add',(req,res)=>{
+    console.log('costam')
     modulee.addModule(req,res)
 })
 router.get('/delete',(req,res)=>{

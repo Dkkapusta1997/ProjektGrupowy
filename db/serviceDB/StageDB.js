@@ -17,7 +17,7 @@ async function showStageByIdOwner(req,res){
 async function addStage(req,res){
 
     const Stage={
-        name: req.query.name,
+        nameStage: req.query.nameStage,
         id_owner: req.query.id_owner,
         vegetable_id: req.query.vegetable_id
     }
