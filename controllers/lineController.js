@@ -26,5 +26,8 @@ router.get('/showStageInLineByIdLine',(req,res)=>{
 router.get('/addStageToLine',(req,res)=>{
     lineDB.addStageToLine(req,res)
 })
+router.get('/deleteStageInLine',(req,res)=>{
+    lineDB.deleteStageInLine(req,res)
+})
 
 module.exports=router

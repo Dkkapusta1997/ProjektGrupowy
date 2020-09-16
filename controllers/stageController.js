@@ -14,5 +14,13 @@ router.get('/showByIdOwner',(req,res)=>{
 router.get('/delete',(req,res)=>{
     stageDB.deleteStage(req,res)
 })
-
+router.get('/addModuleToStage',(req,res)=>{
+    stageDB.addModuleToStage(req,res)
+})
+router.get('/deleteModuleInStage',(req,res)=>{
+    stageDB.deleteModuleInStage(req,res)
+})
+router.get('/showModuleInStageByIdModule',(req,res)=>{
+    stageDB.showModuleInStageByIdModule(req,res)
+})
 module.exports=router;

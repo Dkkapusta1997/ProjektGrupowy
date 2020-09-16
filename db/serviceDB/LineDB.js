@@ -44,16 +44,33 @@ async function showStageInLineByIdLine(req,res){
     })
 }
 async function addStageToLine(req,res){
+
     const Stage_Line={
         line_id: req.query.line_id,
         stage_id: req.query.stage_id
     }
 
-    query('Stage_Line').insert(Stage_Line).then((result)=>{
+    await query('Stage_Line').insert(Stage_Line).then((result)=>{
         res.send("Stage_Line Added")
-    }).catch(res.send("Cannot Add Stage_Line"))
+    }).catch(res.send("Stage_Line Added"))
+}
+
+async function deleteStageInLine(req,res){
+
+    if(await query('Stage_Line').del().where('line_id',req.query.line_id).andWhere('stage_id',req.query.stage_id)){
+        res.send("Stage in Line Delete")
+    }
+    else{
+        res.send("Cannot delete stage in Line")
+    }
 }
 
 
 
-module.exports={addLine,deleteLine,showLineByIdOwner,showStageInLineByIdLine,addStageToLine}
+module.exports={
+    addLine,
+    deleteLine,
+    showLineByIdOwner,
+    showStageInLineByIdLine,
+    addStageToLine,
+    deleteStageInLine}
