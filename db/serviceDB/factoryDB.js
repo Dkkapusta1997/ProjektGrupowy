@@ -4,6 +4,11 @@ const query=knex(connectionConfig);
 
 
 async function addFactory(req,res){
+
+    let mojresult= await query('factory').max('id_factory as factory_id').first()
+
+   console.log(mojresult.factory_id)
+
     const factory={
         kg_resource: req.query.kg_resource,
         id_owner: req.query.id_owner,
@@ -11,11 +16,12 @@ async function addFactory(req,res){
 
     }
 
-     query('factory').insert(factory)
-        .then(await query('factory').max('id_factory as factory_id').first().then((result)=>{
-            res.send(result);
-        }))
-        .catch((err)=>console.log(err))
+    const obiekt={
+        factory_id:mojresult.factory_id+1
+    }
+     await query('factory').insert(factory)
+        .then(res.send(obiekt))
+         .catch((err)=>console.log(err))
 
 }
 
@@ -31,4 +37,12 @@ async function  addStageTime(req,res){
     query('Stage_time').insert(Stage_time).then(res.send("Stage_time Added"))
 }
 
-module.exports={addFactory,addStageTime}
+
+async function calc(req,res){
+
+    
+
+
+}
+
+module.exports={addFactory,addStageTime,calc}
