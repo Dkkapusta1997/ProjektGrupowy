@@ -14,7 +14,13 @@ router.get('/addStage_time',(req,res)=>{
 })
 
 router.get('/calc',(req,res)=>{
+
     factoryDB.calc(req,res);
+
 })
 
-module.exports=router
+async function calcFactory(result,res){
+    console.log(result)
+}
+
+module.exports={router,calcFactory}

@@ -25,7 +25,7 @@ app.use('/energyResources',energyResourcesController)
 app.use('/module',moduleController)
 app.use('/stage',stageController)
 app.use('/line',lineController)
-app.use('/factory',factoryController)
+app.use('/factory',factoryController.router)
 
 
 
