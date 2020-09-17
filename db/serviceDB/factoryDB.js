@@ -1,7 +1,8 @@
 const knex=require('knex');
 const connectionConfig=require('../conectionConfig');
 const query=knex(connectionConfig);
-var calcFactory=require('../../controllers/factoryController')
+
+var statisticDB=require('../../db/serviceDB/statisticDB')
 
 async function addFactory(req,res){
 
@@ -45,7 +46,7 @@ async function calc(req,res){
    let resultDB;
 
    await query('factory').select('gus_categories.name_pl','selection.selection_name_pl','Module.power',
-        'kg_resource','id_Line','Stage_Line.stage_id','Stage_time.workHour','Stage_time.workMinute',"Module.name").
+        'kg_resource','factory.id_owner','id_Line','Stage_Line.stage_id','Stage_time.workHour','Stage_time.workMinute',"Module.name").
     where('factory.id_factory',req.query.id).
     innerJoin('Stage_Line','factory.id_line','Stage_Line.line_id').
     innerJoin("Stage_time",'Stage_Line.stage_id','Stage_time.id_stage').
@@ -55,8 +56,10 @@ async function calc(req,res){
     innerJoin('selection','Module.selection_id','selection.selection_id').then(result=>{
         resultDB=result;
    })
+    console.log(resultDB);
 
     let resourceKG=resultDB[0].kg_resource;
+
 
     let finallyC02=0;
    resultDB.forEach(modul=>{
@@ -112,16 +115,23 @@ async function calc(req,res){
 
        }
 
+
     console.log(resourceKG)
 
    })
 
-    console.log(finallyC02+"___"+resourceKG)
+    const statistic={
+        id_fabric: req.query.id,
+        id_owner: resultDB[0].id_owner,
+        CO2: finallyC02,
+        resource: resourceKG
+    }
 
+    console.log(statistic)
 
+    await statisticDB.addStatistic(statistic)
 
-
-
+    res.send(statistic);
 
 
 }

@@ -23,4 +23,4 @@ async function calcFactory(result,res){
     console.log(result)
 }
 
-module.exports={router,calcFactory}
+module.exports=router
