@@ -13,7 +13,7 @@ const module= {
     vegetable_id: req.query.vegetable_id,
     resource_id: req.query.resource_id,
     selection_id: req.query.selection_id,
-    unit: req.query.unit
+    
 }
     query('Module').insert(module).
     then(res.send("Module added")

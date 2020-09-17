@@ -40,7 +40,9 @@ async function  addStageTime(req,res){
 
 async function calc(req,res){
 
-    
+    //api działa
+
+
 
 
 }

@@ -26,7 +26,9 @@
   <component name="ChangeListManager">
     <list default="true" id="77cb7442-4bf6-48de-aff3-f229b4067b6b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/factoryController.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/factoryController.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/serviceDB/ModuleDB.js" beforeDir="false" afterPath="$PROJECT_DIR$/db/serviceDB/ModuleDB.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/serviceDB/factoryDB.js" beforeDir="false" afterPath="$PROJECT_DIR$/db/serviceDB/factoryDB.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +75,7 @@
       <workItem from="1600247063487" duration="9721000" />
       <workItem from="1600290463169" duration="4783000" />
       <workItem from="1600303018752" duration="1649000" />
-      <workItem from="1600354013633" duration="476000" />
+      <workItem from="1600354013633" duration="2623000" />
     </task>
     <servers />
   </component>
