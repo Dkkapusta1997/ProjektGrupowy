@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:heroku" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="77cb7442-4bf6-48de-aff3-f229b4067b6b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/controllers/statisticController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/serviceDB/statisticDB.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/factoryController.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/factoryController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/serviceDB/StageDB.js" beforeDir="false" afterPath="$PROJECT_DIR$/db/serviceDB/StageDB.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/serviceDB/factoryDB.js" beforeDir="false" afterPath="$PROJECT_DIR$/db/serviceDB/factoryDB.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1hFGbwpfVn6djTnBlCOkEiusjUE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="77cb7442-4bf6-48de-aff3-f229b4067b6b" name="Default Changelist" comment="" />
+      <created>1599599505730</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599599505730</updated>
+      <workItem from="1599599508045" duration="3851000" />
+      <workItem from="1599690752180" duration="758000" />
+      <workItem from="1599849752787" duration="4218000" />
+      <workItem from="1600079006906" duration="15465000" />
+      <workItem from="1600111994025" duration="6486000" />
+      <workItem from="1600157612937" duration="16954000" />
+      <workItem from="1600205686926" duration="8533000" />
+      <workItem from="1600247063487" duration="9721000" />
+      <workItem from="1600290463169" duration="4783000" />
+      <workItem from="1600303018752" duration="1649000" />
+      <workItem from="1600354013633" duration="9661000" />
+      <workItem from="1600377707341" duration="2289000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="717" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600084839469">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="717" y="322" key="#com.intellij.fileTypes.FileTypeChooser/1920.312.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1600084839469" />
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600212393181">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.312.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1600212393181" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1600290859712">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/1920.312.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1600290859712" />
+  </component>
+</project>
